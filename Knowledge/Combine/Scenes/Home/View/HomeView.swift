@@ -13,7 +13,7 @@ struct HomeView: View {
     
     var body: some View {
         List {
-            ForEach(self.viewModel.baseShelf, id: \.self) { shelf in
+            ForEach(self.viewModel.baseShelf, id: \.titleEn) { shelf in
                 Text(shelf.titleEn ?? "")
             }
         }

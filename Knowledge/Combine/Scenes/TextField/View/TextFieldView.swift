@@ -19,7 +19,7 @@ struct TextFieldView: View {
                 self.viewModel.selectedLoginButton.send()
             }.disabled(!self.viewModel.isValid)
             List {
-                ForEach(self.viewModel.baseShelf, id: \.self) { shelf in
+                ForEach(self.viewModel.baseShelf, id: \.titleEn) { shelf in
                     Text(shelf.titleEn ?? "")
                 }
             }
