@@ -1,0 +1,6 @@
+framework module Pods_Knowledge_KnowledgeUITests {
+  umbrella header "Pods-Knowledge-KnowledgeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
